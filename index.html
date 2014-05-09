@@ -1,0 +1,239 @@
+<html>
+	<head>
+		<title>Reddit redesign</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="assets/js/site.js"></script>
+		<script type="text/javascript" src="home.js"> </script>
+	</head>
+	<body>
+		<div id="bodycontainer">
+			<div id="cover">
+				<div id="coverbackground">
+				</div>
+				<div id="thetext">
+					/r/jars
+				</div>
+			</div>
+			<div id="navbar">
+				<div id="roboticon">					
+					<a href="http://reddit.com"><img src="redditicon.png" height="40" width="30"></a>
+				</div>
+				<div id="searchbarholder">
+					<div id="searchbar">
+						<input type="text" value="" size="17" placeholder="Search reddit">
+					</div> 
+					<div id="searchbutton">
+						<button type="submit" id="searchredditbutton" class="abutton"> Search </button>
+					</div>
+				</div>				
+				<div id="subredditbar">
+					<div id="threelines"><label for="threelinescheckbox"><img src="threelines.png" height="30" width="30"></label></div>
+					<div id="redditname">
+						<a href="#">/r/jars</a>
+					</div>
+					<input id="threelinescheckbox" type=checkbox>
+					<div id="subredditlist">
+						<ul>
+							<li><img src="goldstar.png" class="clickedstar"><a href="#">/r/cans</a></li>
+							<li><img src="goldstar.png" class="clickedstar"><a href="#">/r/baking</a></li>
+							<li>
+								<div id="subredditsearchbar">
+									<input type="text" value="" placeholder="Find a subreddit" size="17">
+									<button type="submit" id="subredditbutton" class="abutton">Find</button>
+								</div>
+							</li>
+							<li><img src="blackstar.png" class="unclickedstar"><a href="#">/r/toys</a></li>
+							<li><img src="blackstar.png" class="unclickedstar"><a href="#">/r/funny</a></li>
+							<li><img src="blackstar.png" class="unclickedstar"><a href="#">/r/AdviceAnimals</a></li>
+							<li><img src="blackstar.png" class="unclickedstar"><a href="#">/r/TodayILearned</a></li>							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="sorting">
+				<div id="sortcontainer">
+					<div class="sorter"> <a href="#"> HOT </a> </div>
+					<div class="sorter"> <a href="#">NEW </a></div>
+					<div class="sorter"> <a href="#"> RISING </a></div>
+					<div class="sorter"> <a href="#">CONTROVERSIAL </a></div>
+				</div>
+			</div>
+
+			<div id="loginbox">
+				<input name="user" placeholder="username" type="text" size="10" id="usernameid"> 
+				<input name="password" placeholder="password" type="text" size="10" id="passwordid"><br>
+				<a id="forgotpassword" href="#">Forgot password?</a> <button type="submit" class="abutton" id="loginbutton"> Login </button>
+			</div>
+
+			<div id="contributebutton">	
+				<button type="button" class="abutton" id="contributeid">Contribute</button>				
+			</div>
+
+			<div id="contentcontainer">
+				<div class="rowcontent" id="row1">
+					<div class="leftcontent" id="left1">
+						<div class="contentimagediv">
+							<img src="jar1.jpg" class="contentimage" alt="">
+							<div class="ratingscomments">
+								<div class="ratings">
+									+2733
+								</div>
+								<div class="comments">
+									73 comments
+								</div>
+							</div>
+						</div>
+						<div class="contenttext">
+							<div class="subjline">This is how a cow opens jars.</div>
+							<div class="linkloc">(i.imgur.com) </div>
+						</div>
+					</div>
+  					<div class="rightcontent" id="right1">
+						<div class="contentimagediv">							
+							<img src="jar3.jpg" class="contentimage" alt="">
+							<div class="ratingscomments">
+								<div class="ratings">
+									+333
+								</div>
+								<div class="comments">
+									51 comments
+								</div>
+							</div>									
+						</div>
+						<div class="contenttext">
+							<div class="subjline">I opened a jar and this is what was inside.</div>
+							<div class="linkloc">(i.imgur.com) </div>
+						</div>
+  					</div>
+					<div class="centercontent" id="center1">
+						<div class="contentimagediv">	
+							<img src="nsfw.png" class="contentimage" alt="">
+							<div class="ratingscomments">
+								<div class="ratings">
+									+921
+								</div>
+								<div class="comments">
+									13 comments
+								</div>
+							</div>		
+						</div>
+						<div class="contenttext">
+							<div class="subjline">Crazed murderer uses jars for murder</div>
+							<div class="linkloc">(huffingtonpost.com)</div>
+						</div>
+					</div>
+				</div>
+				<div class="rowcontent" id="row2">
+					<div class="leftcontent" id="left2">
+						<div class="contentimagediv">	
+							<img src="jar2.jpg" class="contentimage" alt="">
+							<div class="ratingscomments">
+								<div class="ratings">
+									+420
+								</div>
+								<div class="comments">
+									42 comments
+								</div>
+							</div>									
+						</div>
+						<div class="contenttext">
+							<div class="subjline">Underwater jar opening in the Atlantic</div>
+							<div class="linkloc">(youtu.be) </div>
+						</div>
+					</div>
+  					<div class="rightcontent" id="right2">
+  						<div class="contentimagediv">	
+							<img src="jar4.jpg" class="contentimage" alt="">
+							<div class="ratingscomments">
+								<div class="ratings">
+									+888
+								</div>
+								<div class="comments">
+									15 comments
+								</div>
+							</div>									
+						</div>
+						<div class="contenttext">
+							<div class="subjline">Putting jars in hot water.</div>
+							<div class="linkloc">(self.reddit.com) </div>
+						</div>
+  					</div>
+					<div class="centercontent" id="center2">
+						<div class="contentimagediv">	
+							<img src="question.png" class="contentimage" alt="">
+							<div class="ratingscomments">
+								<div class="ratings">
+									-73
+								</div>
+								<div class="comments">
+									570 comments
+								</div>
+							</div>									
+						</div>
+						<div class="contenttext">
+							<div class="subjline">What rhymes with jar?</div>
+							<div class="linkloc">(self.reddit.com) </div>
+						</div>
+					</div>
+				</div>	
+				<div class="rowcontent" id="row3">
+					<div class="leftcontent" id="left3">
+						<div class="contentimagediv">	
+							<img src="question.png" class="contentimage" alt="">
+							<div class="ratingscomments">
+								<div class="ratings">
+									+218
+								</div>
+								<div class="comments">
+									0 comments
+								</div>
+							</div>									
+						</div>
+						<div class="contenttext">
+							<div class="subjline">Jar fashion</div>
+							<div class="linkloc">(self.reddit.com) </div>
+						</div>
+					</div>
+  					<div class="rightcontent" id="right3">
+						<div class="contentimagediv">	
+							<img src="jar5.jpg" class="contentimage" alt="">
+							<div class="ratingscomments">
+								<div class="ratings">
+									+477
+								</div>
+								<div class="comments">
+									74 comments
+								</div>
+							</div>									
+						</div>
+						<div class="contenttext">
+							<div class="subjline">I put a jar in hot water and this is what happened.</div>
+							<div class="linkloc">(i.imgur.com) </div>
+						</div>
+  					</div>
+					<div class="centercontent" id="center3">
+						<div class="contentimagediv">	
+							<img src="question.png" class="contentimage" alt="">	
+							<div class="ratingscomments">
+								<div class="ratings">
+									+32
+								</div>
+								<div class="comments">
+									2 comments
+								</div>
+							</div>									
+						</div>
+						<div class="contenttext">
+							<div class="subjline">How do I know if I can open jars?</div>
+							<div class="linkloc">(self.reddit.com) </div>							
+						</div>
+					</div>
+				</div>						
+			</div>
+		</div>
+		<div id="disclaimer">
+			Use of this site constitutes acceptance of our User Agreement and Privacy Policy.
+		</div>
+	</body>
+</html>

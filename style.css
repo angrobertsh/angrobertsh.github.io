@@ -1,0 +1,321 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	height:100%;
+	width:100%;
+	background: #f2f2dc;
+}
+
+.abutton{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#cover{
+	position: fixed;
+	top: 40px;
+	width: 100%;
+	height: 100%;
+	z-index: 4;
+}
+
+#coverbackground{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #ffaa55;
+	opacity: .9;
+}
+
+#cover:active{
+	display: none;
+}
+
+.sorter a{
+	font-weight: bold;
+}
+
+#thetext{
+	position: relative;
+	top: 210px;
+	font-size: 90;
+	font-family: "Arial", sans-serif;
+	text-align: center;
+}
+
+
+
+#navbar{
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	background: #995555;
+	z-index: 3;
+}
+
+#roboticon{
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	height: 100%;
+	width: 30px;
+}
+
+#searchbarholder{
+	display: inline-block;
+	position: relative;
+	left: 15px;
+	bottom: 14px;
+}
+
+#searchbar{
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	margin-right: 35px;
+}
+
+#searchbutton{
+	display: inline-block;
+	position: relative;
+}
+
+
+#subredditbar{
+	position: relative;
+	float: right;
+	padding: 5px 20px 5px 10px;
+}
+
+#threelines{
+	display: inline-block;
+}
+
+#redditname{
+	font-family: "Arial", sans-serif;
+	display: inline-block;
+	width: 153px;
+	position: relative;
+	top: -6px;
+	left: 1px;
+	padding-top: 5px;
+	padding-left: 4px;
+	padding-bottom: 1px;
+	font-weight: bold;
+	font-size: 19;
+	border: 1px solid #995555;
+}
+
+#redditname a{
+	color: black;
+}
+
+
+
+#subredditlist ul{
+	position: relative;
+	top: -2px;
+    list-style-type: none;
+    position: relative;
+    background-color: #eeccbb;
+    width: 194px;
+	visibility: hidden;
+}
+
+
+#subredditlist ul li a{
+	position: relative;
+	left: 12px;
+	top: -6px;
+	font-size: 19;
+}
+
+#subredditlist ul li img{
+	position: relative;
+	top: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 1px;
+}
+
+
+#subredditsearchbar{
+	position: relative;
+	left: 6px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#threelines:hover + #redditname{
+	border: 1px solid #993333;
+}
+
+[type=checkbox]{
+	display: none;
+}
+
+:checked + #subredditlist ul{
+	visibility: visible;
+}
+
+#loginbox{
+	border: 1px solid black;
+	position: absolute;
+	padding: 4;
+	top: 58px;
+	left: 28px;
+}
+
+#loginbox a{
+	font-family: "Arial", sans-serif;
+	font-size: 10;
+	position: relative;
+	top: 6px;
+}
+
+#loginbutton{
+	margin-top: 2px;
+	float: right;
+}
+
+#contributebutton{
+	position: absolute;
+	top: 130px;
+	left: 28px;
+}
+
+#contributeid{
+	font-size: 20;
+	padding: 5px 54px;
+}
+
+#sorting{	
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 57px;
+	width: 320px;
+	height: 30px;
+	border: 1px solid black;
+	background-color: #ffffcc;	
+	text-align: center;
+}
+
+.sorter{
+	font-family: "Arial", sans-serif;
+	display: inline-block;
+	padding-top: 6px;
+	color: rgba(0,0,0,0.8);
+}
+
+
+.rowcontent{
+	width: 60%;
+	height: 285px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+}
+
+#row1{
+	padding-top: 80px;
+}
+
+.leftcontent{
+	width: 223px;
+	height: 100%;
+	float: left;
+	background-color: white;
+	border: 1px solid rgba(0,0,0,0.35);
+}
+
+.rightcontent{
+	width: 223px;
+	height: 100%;
+	float: right;
+	background-color: white;
+	border: 1px solid rgba(0,0,0,0.35);
+}
+
+.centercontent{
+	width: 223px;
+	margin:0 auto;
+	height: 100%;
+	background-color: white;
+	border: 1px solid rgba(0,0,0,0.35);
+}
+
+.contentimagediv{
+	position: relative;
+	width: 100%;
+	height: 223;
+}
+
+.ratingscomments{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	background-color: black;	
+}
+
+.ratingscomments:hover{
+	opacity: .7;
+}
+
+.ratings{
+	text-align: center;
+	font-size: 50;
+	font-weight: 900;
+	color: #F8F8F8;
+	height: 50%;
+	padding-top: 80px;
+}
+
+.comments{
+	text-align: center;
+	font-size: 18;
+	color: #F8F8F8;
+}
+
+.contentimage{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-bottom: 1px solid rgba(0,0,0,0.35);	
+}
+
+.contenttext{
+	padding-top: 4px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.linkloc{
+	text-align: center;
+	font-size: 12;
+	color: rgba(0,0,0,0.7);
+}
+
+.subjline{
+	text-align: center;
+	font-size: 14;
+	padding-top: 2px;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+}
+
+#disclaimer{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 12;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+}
