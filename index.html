@@ -1,239 +1,269 @@
 <html>
 	<head>
-		<title>Reddit redesign</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Robert Ang's Online Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script src="assets/js/site.js"></script>
-		<script type="text/javascript" src="home.js"> </script>
+		<script type="text/javascript" src="assets/home.js"> </script>
 	</head>
 	<body>
-		<div id="bodycontainer">
-			<div id="cover">
-				<div id="coverbackground">
-				</div>
-				<div id="thetext">
-					/r/jars
-				</div>
+		<div id="pagecontainer">
+			<div id="robertname">Robert Ang</div>
+			<div id="frontpicture">
+				<div id="frontpicture1"></div>
+				<div id="frontpicture2"></div>
+				<div id="frontpicture3"></div>
 			</div>
-			<div id="navbar">
-				<div id="roboticon">					
-					<a href="http://reddit.com"><img src="redditicon.png" height="40" width="30"></a>
-				</div>
-				<div id="searchbarholder">
-					<div id="searchbar">
-						<input type="text" value="" size="17" placeholder="Search reddit">
-					</div> 
-					<div id="searchbutton">
-						<button type="submit" id="searchredditbutton" class="abutton"> Search </button>
-					</div>
-				</div>				
-				<div id="subredditbar">
-					<div id="threelines"><label for="threelinescheckbox"><img src="threelines.png" height="30" width="30"></label></div>
-					<div id="redditname">
-						<a href="#">/r/jars</a>
-					</div>
-					<input id="threelinescheckbox" type=checkbox>
-					<div id="subredditlist">
-						<ul>
-							<li><img src="goldstar.png" class="clickedstar"><a href="#">/r/cans</a></li>
-							<li><img src="goldstar.png" class="clickedstar"><a href="#">/r/baking</a></li>
-							<li>
-								<div id="subredditsearchbar">
-									<input type="text" value="" placeholder="Find a subreddit" size="17">
-									<button type="submit" id="subredditbutton" class="abutton">Find</button>
+			<div id="buttoncontainer">
+				<a href="storytelling/index.html">
+					<div class="frontbutton" id="storybutton">Storytelling</div>
+				</a>
+				<a href="webdesign/index.html">
+					<div class="frontbutton" id="webbutton">Web Design</div>
+				</a>
+			</div>
+		</div>
+			<div id="ca-container" class="ca-container">
+				<div class="ca-wrapper">
+					<div class="ca-item ca-item-1">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Stop factory farming</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>The greatness of a nation and its moral progress can be judged by the way in which its animals are treated.</span>
+							</h4>
+								<a href="#" class="ca-more">more...</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Animals are not commodities</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
 								</div>
-							</li>
-							<li><img src="blackstar.png" class="unclickedstar"><a href="#">/r/toys</a></li>
-							<li><img src="blackstar.png" class="unclickedstar"><a href="#">/r/funny</a></li>
-							<li><img src="blackstar.png" class="unclickedstar"><a href="#">/r/AdviceAnimals</a></li>
-							<li><img src="blackstar.png" class="unclickedstar"><a href="#">/r/TodayILearned</a></li>							
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div id="sorting">
-				<div id="sortcontainer">
-					<div class="sorter"> <a href="#"> HOT </a> </div>
-					<div class="sorter"> <a href="#">NEW </a></div>
-					<div class="sorter"> <a href="#"> RISING </a></div>
-					<div class="sorter"> <a href="#">CONTROVERSIAL </a></div>
-				</div>
-			</div>
-
-			<div id="loginbox">
-				<input name="user" placeholder="username" type="text" size="10" id="usernameid"> 
-				<input name="password" placeholder="password" type="text" size="10" id="passwordid"><br>
-				<a id="forgotpassword" href="#">Forgot password?</a> <button type="submit" class="abutton" id="loginbutton"> Login </button>
-			</div>
-
-			<div id="contributebutton">	
-				<button type="button" class="abutton" id="contributeid">Contribute</button>				
-			</div>
-
-			<div id="contentcontainer">
-				<div class="rowcontent" id="row1">
-					<div class="leftcontent" id="left1">
-						<div class="contentimagediv">
-							<img src="jar1.jpg" class="contentimage" alt="">
-							<div class="ratingscomments">
-								<div class="ratings">
-									+2733
-								</div>
-								<div class="comments">
-									73 comments
-								</div>
+								<ul>
+									<li><a href="#">Read more</a></li>
+									<li><a href="#">Share this</a></li>
+									<li><a href="#">Become a member</a></li>
+									<li><a href="#">Donate</a></li>
+								</ul>
 							</div>
 						</div>
-						<div class="contenttext">
-							<div class="subjline">This is how a cow opens jars.</div>
-							<div class="linkloc">(i.imgur.com) </div>
+					</div>
+					<div class="ca-item ca-item-2">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Respect Life &amp; Rights</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>I hold that the more helpless a creature, the more entitled it is to protection by man from the cruelty of man.</span>
+							</h4>
+								<a href="#" class="ca-more">more...</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Would you eat your dog?</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+								<ul>
+									<li><a href="#">Read more</a></li>
+									<li><a href="#">Share this</a></li>
+									<li><a href="#">Become a member</a></li>
+									<li><a href="#">Donate</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
-  					<div class="rightcontent" id="right1">
-						<div class="contentimagediv">							
-							<img src="jar3.jpg" class="contentimage" alt="">
-							<div class="ratingscomments">
-								<div class="ratings">
-									+333
-								</div>
-								<div class="comments">
-									51 comments
-								</div>
-							</div>									
+					<div class="ca-item ca-item-3">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Become 100% meat-free</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>I feel that spiritual progress does demand at some stage that we should cease to kill our fellow creatures for the satisfaction of our bodily wants.</span>
+							</h4>
+								<a href="#" class="ca-more">more...</a>
 						</div>
-						<div class="contenttext">
-							<div class="subjline">I opened a jar and this is what was inside.</div>
-							<div class="linkloc">(i.imgur.com) </div>
-						</div>
-  					</div>
-					<div class="centercontent" id="center1">
-						<div class="contentimagediv">	
-							<img src="nsfw.png" class="contentimage" alt="">
-							<div class="ratingscomments">
-								<div class="ratings">
-									+921
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>You can change the world</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
 								</div>
-								<div class="comments">
-									13 comments
-								</div>
-							</div>		
+								<ul>
+									<li><a href="#">Read more</a></li>
+									<li><a href="#">Share this</a></li>
+									<li><a href="#">Become a member</a></li>
+									<li><a href="#">Donate</a></li>
+								</ul>
+							</div>
 						</div>
-						<div class="contenttext">
-							<div class="subjline">Crazed murderer uses jars for murder</div>
-							<div class="linkloc">(huffingtonpost.com)</div>
+					</div>
+					<div class="ca-item ca-item-4">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Make a difference</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>A man is but the product of his thoughts what he thinks, he becomes.</span>
+							</h4>
+								<a href="#" class="ca-more">more...</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Think globally, act locally</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+								<ul>
+									<li><a href="#">Read more</a></li>
+									<li><a href="#">Share this</a></li>
+									<li><a href="#">Become a member</a></li>
+									<li><a href="#">Donate</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-5">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Say no to killing</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>A weak man is just by accident. A strong but non-violent man is unjust by accident.</span>
+							</h4>
+								<a href="#" class="ca-more">more...</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Animals have rights, too!</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+								<ul>
+									<li><a href="#">Read more</a></li>
+									<li><a href="#">Share this</a></li>
+									<li><a href="#">Become a member</a></li>
+									<li><a href="#">Donate</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-6">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Don't believe the lies</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>An error does not become truth by reason of multiplied propagation, nor does truth become error because nobody sees it.</span>
+							</h4>
+								<a href="#" class="ca-more">more...</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>How essential is meat?</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+								<ul>
+									<li><a href="#">Read more</a></li>
+									<li><a href="#">Share this</a></li>
+									<li><a href="#">Become a member</a></li>
+									<li><a href="#">Donate</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-7">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>Save the planet</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>A small body of determined spirits fired by an unquenchable faith in their mission can alter the course of history.</span>
+							</h4>
+								<a href="#" class="ca-more">more...</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Collateral damage?</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+								<ul>
+									<li><a href="#">Read more</a></li>
+									<li><a href="#">Share this</a></li>
+									<li><a href="#">Become a member</a></li>
+									<li><a href="#">Donate</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-8">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h3>It's time to move on</h3>
+							<h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>A nation's culture resides in the hearts and in the soul of its people.</span>
+							</h4>
+								<a href="#" class="ca-more">more...</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Let's finally become humans</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									<p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+									<p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+									<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+								</div>
+								<ul>
+									<li><a href="#">Read more</a></li>
+									<li><a href="#">Share this</a></li>
+									<li><a href="#">Become a member</a></li>
+									<li><a href="#">Donate</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="rowcontent" id="row2">
-					<div class="leftcontent" id="left2">
-						<div class="contentimagediv">	
-							<img src="jar2.jpg" class="contentimage" alt="">
-							<div class="ratingscomments">
-								<div class="ratings">
-									+420
-								</div>
-								<div class="comments">
-									42 comments
-								</div>
-							</div>									
-						</div>
-						<div class="contenttext">
-							<div class="subjline">Underwater jar opening in the Atlantic</div>
-							<div class="linkloc">(youtu.be) </div>
-						</div>
-					</div>
-  					<div class="rightcontent" id="right2">
-  						<div class="contentimagediv">	
-							<img src="jar4.jpg" class="contentimage" alt="">
-							<div class="ratingscomments">
-								<div class="ratings">
-									+888
-								</div>
-								<div class="comments">
-									15 comments
-								</div>
-							</div>									
-						</div>
-						<div class="contenttext">
-							<div class="subjline">Putting jars in hot water.</div>
-							<div class="linkloc">(self.reddit.com) </div>
-						</div>
-  					</div>
-					<div class="centercontent" id="center2">
-						<div class="contentimagediv">	
-							<img src="question.png" class="contentimage" alt="">
-							<div class="ratingscomments">
-								<div class="ratings">
-									-73
-								</div>
-								<div class="comments">
-									570 comments
-								</div>
-							</div>									
-						</div>
-						<div class="contenttext">
-							<div class="subjline">What rhymes with jar?</div>
-							<div class="linkloc">(self.reddit.com) </div>
-						</div>
-					</div>
-				</div>	
-				<div class="rowcontent" id="row3">
-					<div class="leftcontent" id="left3">
-						<div class="contentimagediv">	
-							<img src="question.png" class="contentimage" alt="">
-							<div class="ratingscomments">
-								<div class="ratings">
-									+218
-								</div>
-								<div class="comments">
-									0 comments
-								</div>
-							</div>									
-						</div>
-						<div class="contenttext">
-							<div class="subjline">Jar fashion</div>
-							<div class="linkloc">(self.reddit.com) </div>
-						</div>
-					</div>
-  					<div class="rightcontent" id="right3">
-						<div class="contentimagediv">	
-							<img src="jar5.jpg" class="contentimage" alt="">
-							<div class="ratingscomments">
-								<div class="ratings">
-									+477
-								</div>
-								<div class="comments">
-									74 comments
-								</div>
-							</div>									
-						</div>
-						<div class="contenttext">
-							<div class="subjline">I put a jar in hot water and this is what happened.</div>
-							<div class="linkloc">(i.imgur.com) </div>
-						</div>
-  					</div>
-					<div class="centercontent" id="center3">
-						<div class="contentimagediv">	
-							<img src="question.png" class="contentimage" alt="">	
-							<div class="ratingscomments">
-								<div class="ratings">
-									+32
-								</div>
-								<div class="comments">
-									2 comments
-								</div>
-							</div>									
-						</div>
-						<div class="contenttext">
-							<div class="subjline">How do I know if I can open jars?</div>
-							<div class="linkloc">(self.reddit.com) </div>							
-						</div>
-					</div>
-				</div>						
 			</div>
+			<h5>Quotes by Mohandas Gandhi</h5>
 		</div>
-		<div id="disclaimer">
-			Use of this site constitutes acceptance of our User Agreement and Privacy Policy.
-		</div>
+
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/CircularContentCarousel/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="assets/CircularContentCarousel/js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="assets/CircularContentCarousel/js/jquery.contentcarousel.js"></script>
+
+		<script type="text/javascript">
+			$('#ca-container').contentcarousel();
+		</script>
+
+
 	</body>
 </html>
+	
