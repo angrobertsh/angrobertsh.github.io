@@ -1,17 +1,17 @@
 body{
-	color: #555;
+	color: #222222;
     font-family: Arial, Verdana, sans-serif;
     font-size: 14px;
     margin: 0;
     padding: 0;
     height:100%;
 	width:100%;
-	background-color: #c3f333;
+	background-color: #fff4a3;
 }
 
 a{
 	font-weight: bold;
-	color: #222;
+	color: #000000;
     text-decoration: none;  
 }
 
@@ -36,9 +36,18 @@ iframe{
 	width: 100%;
 }
 
+#frontbox{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 85%;
+	width: 40%;
+	top: 40px;
+}
+
 #robertname{
 	position: relative;
-	top: 95px;
+	top: 70px;
 	font-size: 60px;
 	font-weight: bold;
 	font-family: "Arial", sans-serif;
@@ -47,7 +56,7 @@ iframe{
 
 #frontpicture{
 	position: relative;
-	top: 140px;
+	top: 110px;
 }
 
 #frontpicture1{
@@ -82,7 +91,7 @@ iframe{
 
 #buttoncontainer{
 	position: relative;
-	top: 325px;
+	top: 315px;
 }
 
 .frontbutton{
@@ -92,11 +101,11 @@ iframe{
     transition: 0.1s;
     -moz-transition: 0.1s;
     -webkit-transition: 0.1s;
-    background-color: red;	
+    background-color: #E67021;	
 }
 
 .frontbutton:hover, .frontbutton.active {
-    background-color: #333;    
+    background-color: #333333;    
     color: white;
 }
 
@@ -129,21 +138,21 @@ iframe{
 }
 
 #storybutton2{
-	background-color: red;
+	background-color: #E67021;
 }
 
 #webbutton2{
-	background-color: yellow;
-	border-bottom: 1px solid yellow;
+	background-color: #DF9F91;
+	border-bottom: 1px solid #DF9F91;
 }
 
 #storybutton3{
-	background-color: yellow;
-	border-bottom: 1px solid yellow;
+	background-color: #DF9F91;
+	border-bottom: 1px solid #DF9F91;
 }
 
 #webbutton3{
-	background-color: red;
+	background-color: #E67021;
 }
 
 
@@ -155,9 +164,9 @@ iframe{
 #contentarea{
 	position: relative;
 	bottom: 1px;
-	background-color: yellow;
+	background-color: #DF9F91;
 	border: 1px solid black;
-	width: 56%;
+	width: 64%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
@@ -168,11 +177,10 @@ iframe{
 
 .categorytitle{
 	text-align: center;
-	font-size: 25px;	
+	font-size: 35px;	
 	padding: 45px;
 	margin: 40px 5px;
 	font-weight: 900;
-	border: 1px solid black;
 }
 
 .contentbox{
@@ -205,6 +213,13 @@ iframe.centered{
 	margin-right: auto;
 
 }
+.carouselwrap{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 .centertext{
 	text-align: center;
 }
@@ -230,7 +245,12 @@ iframe.centered{
 
 
 .nanodescription{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 	border: 1px solid black;
+	font-size: 12px;
+	line-height: 110%;	
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -246,21 +266,21 @@ iframe.centered{
     -moz-transition: 0.2s;
     -webkit-transition: 0.2s;
     border: 1px solid black;
-    background-color: #5f5fcc;	
+    background-color: #DDDAD9;	
 }
 .nanobutton:hover, .nanobutton.active {
-    background-color: #333;    
-    border: 1px solid #555;
+    background-color: #333333;    
+    border: 1px solid #555555;
     color: white;
 }
 #panels {
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    box-shadow: 0 2px 3px #ccc;
-    -moz-box-shadow: 0 2px 3px #ccc;
-    -webkit-box-shadow: 0 2px 3px #ccc;
+    box-shadow: 0 2px 3px #cccccc;
+    -moz-box-shadow: 0 2px 3px #cccccc;
+    -webkit-box-shadow: 0 2px 3px #cccccc;
     margin: 10px;
     padding: 25px 25px;
 }
@@ -271,8 +291,8 @@ iframe.centered{
 	display: inline-block;
 }
 #panels .panel .nanotitle {
-    border-bottom: 1px solid #eee;
-    font-size: 16px;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 18px;
     letter-spacing: 1px;
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -281,6 +301,7 @@ iframe.centered{
 }
 #panels .panel .nanochapter {
     margin-bottom: 10px;
+    font-size: 18px;
 }
 
 
@@ -316,7 +337,7 @@ iframe.centered{
 }
 
 .longnavbar{
-	background-color: black;
+	background-color: #E67021;
 	color: white;
 	position: absolute;
 	top: 187px;
@@ -329,7 +350,7 @@ iframe.centered{
 }
 
 .longnavbar.scrollpoint{
-	background-color: black;
+	background-color: #E67021;
 	color: white;
 	top: 0;
 	opacity:.1;
@@ -337,12 +358,12 @@ iframe.centered{
 }
 
 .longnavbar:hover{
-	opacity:.9;
+	opacity:.7;
 }
 
 
 .longnavbar2{
-	background-color: black;
+	background-color: #E67021;
 	color: white;
 	position: absolute;
 	top: 187px;
@@ -355,7 +376,7 @@ iframe.centered{
 }
 
 .longnavbar2.scrollpoint2{
-	background-color: black;
+	background-color: #E67021;
 	color: white;
 	top: 0;
 	opacity:.1;
@@ -363,13 +384,13 @@ iframe.centered{
 }
 
 .longnavbar2:hover{
-	opacity:.9;
+	opacity:.7;
 }
 
 
 
 .longnavbar3{
-	background-color: black;
+	background-color: #E67021;
 	color: white;
 	position: absolute;
 	top: 187px;
@@ -382,7 +403,7 @@ iframe.centered{
 }
 
 .longnavbar3.scrollpoint3{
-	background-color: black;
+	background-color: #E67021;
 	color: white;
 	top: 0;
 	left: 0;
@@ -393,7 +414,7 @@ iframe.centered{
 }
 
 .longnavbar3:hover{
-	opacity:.9;
+	opacity:.7;
 }
 
 
