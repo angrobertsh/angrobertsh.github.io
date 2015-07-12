@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>Bakery Online List</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="home.js"> </script>
+	</head>
+	<body>
+		
+
+		<div class="big3" id="selectionboxes">
+			<form name="filteritemsform" action="#" method="post" id="filteritems">			
+				<b>Show Bakery Items that are...</b><br>
+				<input type="checkbox" name="thefilter" value="vegan">Vegan<br>
+				<input type="checkbox" name="thefilter" value="wf">Wheat Free<br>
+				<input type="checkbox" name="thefilter" value="wg">Whole Grain<br>
+				<input type="checkbox" name="thefilter" value="nuts">Nuts<br>
+				<input type="checkbox" name="thefilter" value="fruit">Fruit<br>			
+				<input type="checkbox" name="thefilter" value="choc">Chocolate<br>
+				<input type="checkbox" name="thefilter" value="caramel">Caramel<br>
+
+				<br><b>Group Pastries By</b><br>
+				<input type="radio" name="thesort" value="0" checked>Type (muffin, etc. [default])<br>
+				<input type="radio" name="thesort" value="1">Family (boulangerie, etc.)<br>
+				<input type="radio" name="thesort" value="2">Time of day (morning, etc.)<br>
+				<input type="radio" name="thesort" value="3">Case (cold case, not)<br>
+				<input type="radio" name="thesort" value="4">2-for-1<br>
+				<input type="radio" name="thesort" value="5">Added Items<br><br>
+
+				<input type="submit" value="Filter and Sort items"><br><br>
+			</form>
+
+		</div>
+
+		
+
+		<div class="big3" id="bakerylist">
+			<div id="listtitle"><b>Bakery Items</b></div>
+			<div id="categlist">
+				<div class="categ">
+					<div class="categtitle"><br>Muffins<br></div>
+					<div class="categitems">Apple-Walnut Muffin<br>Banana Bread Muffin<br>Blueberry Muffin<br>Bran Muffin<br>Multigrain Muffin<br></div>
+				</div>
+				<div class="categ">
+					<div class="categtitle"><br>Scones<br></div>
+					<div class="categitems">Cheddar Scone<br>Currant Scone<br>Strawberry Scone<br></div>
+				</div>
+				<div class="categ">
+					<div class="categtitle"><br>Cookies<br></div>
+					<div class="categitems">Chocolate Chip Cookie<br>Double Chocolate Cookie<br>Oatmeal Raisin Cookie<br>Pistachio Cookie<br>Snickerdoodle Cookie<br>Thumbprint Cookie<br>Walnut Tea Cookie<br></div>
+				</div>
+				<div class="categ">
+					<div class="categtitle"><br>Cakes-Pies-Cupcakes<br></div>
+					<div class="categitems">Apple Pie<br>Chocolate Cheesecake<br>Fruit Cheesecake<br>Vanilla Cupcake<br>Raspberry Cupcake<br>German Chocolate Cupcake<br>Caramel Chocolate Cupcake<br>Flourless Chocolate Cake<br>Fruit Tart<br>Lemon Tart<br>Pecan Pie<br>Vegan Chocolate Cake<br></div>
+				</div>
+				<div class="categ">
+					<div class="categtitle"><br>Puffs-Eclairs<br></div>
+					<div class="categitems">Cream Puff<br>Powdered Sugar Cream Puff<br>Chocolate Drizzled Cream Puff<br>Caramel Eclair<br>Chocolate Eclair<br></div>
+				</div>
+				<div class="categ">
+					<div class="categtitle"><br>Miscellaneous<br></div>
+					<div class="categitems">Caramel Pudding<br>Rice Pudding<br>Seeds and Nut Bar<br></div>
+				</div>				
+			</div>
+		</div>
+		
+
+		<div class="big3" id="ingredientlist">
+			<div id="ingredienttitles">
+			</div>
+			<div id="ingredientchecks">
+			</div>
+		</div>
+
+
+	</body>
+</html>
