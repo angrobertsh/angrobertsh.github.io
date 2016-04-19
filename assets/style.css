@@ -142,13 +142,13 @@ iframe{
 }
 
 #webbutton2{
-	background-color: #DF9F91;
-	border-bottom: 1px solid #DF9F91;
+	background-color: #ffb3da;
+	border-bottom: 1px solid #ffb3da;
 }
 
 #storybutton3{
-	background-color: #DF9F91;
-	border-bottom: 1px solid #DF9F91;
+	background-color: #ffb3da;
+	border-bottom: 1px solid #ffb3da;
 }
 
 #webbutton3{
@@ -164,7 +164,7 @@ iframe{
 #contentarea{
 	position: relative;
 	bottom: 1px;
-	background-color: #DF9F91;
+	background-color: #ffb3da;
 	border: 1px solid black;
 	width: 64%;
 	margin-left: auto;
@@ -380,7 +380,7 @@ iframe.centered{
 	background-color: #E67021;
 	color: white;
 	top: 0;
-	opacity:.1;
+	opacity:.2;
 	position: fixed;
 }
 
@@ -409,7 +409,7 @@ iframe.centered{
 	top: 0;
 	left: 0;
 	height: 40px;
-	opacity:.1;
+	opacity:.2;
 	position: fixed;
 	width: 100%;
 }
