@@ -374,6 +374,7 @@ iframe.centered{
 	right: 24%;
 	height: 40px;
 	z-index:2;
+	border: 1px solid black;	
 }
 
 .longnavbar2.scrollpoint2{
@@ -401,6 +402,7 @@ iframe.centered{
 	right: 30%;
 	height: 75px;
 	z-index:2;
+	border: 1px solid black;	
 }
 
 .longnavbar3.scrollpoint3{
