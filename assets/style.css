@@ -347,13 +347,14 @@ iframe.centered{
 	right: 30%;
 	height: 40px;
 	z-index:2;
+	border: 1px solid black;
 }
 
 .longnavbar.scrollpoint{
 	background-color: #E67021;
 	color: white;
 	top: 0;
-	opacity:.1;
+	opacity:.2;
 	position: fixed;
 }
 
