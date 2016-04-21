@@ -101,7 +101,7 @@ iframe{
     transition: 0.1s;
     -moz-transition: 0.1s;
     -webkit-transition: 0.1s;
-    background-color: #E67021;	
+    background-color: #FFD9BF;	
 }
 
 .frontbutton:hover, .frontbutton.active {
@@ -138,21 +138,21 @@ iframe{
 }
 
 #storybutton2{
-	background-color: #E67021;
+	background-color: #FFD9BF;
 }
 
 #webbutton2{
-	background-color: #ffb3da;
-	border-bottom: 1px solid #ffb3da;
+	background-color: #E4D9EC;
+	border-bottom: 1px solid #E4D9EC;
 }
 
 #storybutton3{
-	background-color: #ffb3da;
-	border-bottom: 1px solid #ffb3da;
+	background-color: #E4D9EC;
+	border-bottom: 1px solid #E4D9EC;
 }
 
 #webbutton3{
-	background-color: #E67021;
+	background-color: #FFD9BF;
 }
 
 
@@ -164,7 +164,7 @@ iframe{
 #contentarea{
 	position: relative;
 	bottom: 1px;
-	background-color: #ffb3da;
+	background-color: #E4D9EC;
 	border: 1px solid black;
 	width: 64%;
 	margin-left: auto;
@@ -337,7 +337,7 @@ iframe.centered{
 }
 
 .longnavbar{
-	background-color: #E67021;
+	background-color: #FFD9BF;
 	color: white;
 	position: absolute;
 	top: 187px;
@@ -351,7 +351,7 @@ iframe.centered{
 }
 
 .longnavbar.scrollpoint{
-	background-color: #E67021;
+	background-color: #FFD9BF;
 	color: white;
 	top: 0;
 	opacity:.2;
@@ -364,7 +364,7 @@ iframe.centered{
 
 
 .longnavbar2{
-	background-color: #E67021;
+	background-color: #FFD9BF;
 	color: white;
 	position: absolute;
 	top: 187px;
@@ -378,7 +378,7 @@ iframe.centered{
 }
 
 .longnavbar2.scrollpoint2{
-	background-color: #E67021;
+	background-color: #FFD9BF;
 	color: white;
 	top: 0;
 	opacity:.2;
@@ -392,7 +392,7 @@ iframe.centered{
 
 
 .longnavbar3{
-	background-color: #E67021;
+	background-color: #FFD9BF;
 	color: white;
 	position: absolute;
 	top: 187px;
@@ -406,7 +406,7 @@ iframe.centered{
 }
 
 .longnavbar3.scrollpoint3{
-	background-color: #E67021;
+	background-color: #FFD9BF;
 	color: white;
 	top: 0;
 	left: 0;
