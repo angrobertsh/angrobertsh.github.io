@@ -13,7 +13,7 @@ html{
   box-sizing: border-box;
   font-weight: 700;
   font-size: 18px;
-  text-shadow: -3px 3px 6px rgba(0, 0, 0, 0.5);  
+  text-shadow: -3px 3px 6px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
@@ -44,12 +44,12 @@ html{
   width: 400px;
   height: 400px;
   margin: 0 auto;
-  background: url(https://upload.wikimedia.org/wikipedia/commons/6/65/Lucas_Cranach_d._%C3%84._035.jpg);
+  background: url(eve.jpg);
   background-size: cover;
 }
 
 .segment {
-  background: url(http://www.vortexdipping.com/images/patterns-animal/yellow-snake-skin.jpg);
+  background: url(snakeskin.jpg);
   background-size: cover;
 
 }
@@ -57,7 +57,7 @@ html{
 .apple {
   background: red;
   border-radius: 20px;
-  background: url(https://pixabay.com/static/uploads/photo/2014/04/02/16/28/apple-307356_960_720.png);
+  background: url(apple.jpg);
   background-size: cover;
 }
 
