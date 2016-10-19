@@ -2,7 +2,7 @@
 .ca-container{
 	position:relative;
 	margin:25px auto 20px auto;
-	width:990px;
+	width: 90vw;
 	height:80vh;
 }
 .ca-wrapper{
@@ -13,7 +13,7 @@
 .ca-item{
 	position:relative;
 	float:left;
-	width: 25%;
+	width: 30vw;
 	height:100%;
 	text-align:center;
 }
@@ -30,8 +30,8 @@
 }
 .ca-close{
 	position:absolute;
-	top:10px;
-	right:10px;
+	top:20px;
+	right:20px;
 	background:#fff url(../images/cross.png) no-repeat center center;
 	width:27px;
 	height:27px;
@@ -43,12 +43,13 @@
 	opacity:1.0;
 }
 .ca-item-main{
-	padding:20px;
 	position:absolute;
-	top:5px;
-	left:5px;
-	right:5px;
-	bottom:5px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
 	background:#fff;
 	overflow:hidden;
 	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
@@ -56,76 +57,77 @@
 	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
 }
 
-.ca-icon{
-	position:relative;
-	margin:0 auto;
+.ca-image-wrapper{
+	width: 100%;
+	height: 75%;
 }
 
-.ca-icon img{
-	width: 100%;
+.piclink{
+	display: block;
+	height: 100%;
+}
+
+.ca-icon{
+	position:relative;
+	height: 100%;
+	margin:0 auto;
+	background-position: center;
 }
 
 .ca-item h3{
-	font-family: 'Coustard', sans-serif;
 	text-transform:uppercase;
-	font-size:24px;
+	font-size: 2vw;
+	font-weight: bold;
 	color:#000;
 	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .ca-item h4{
 	font-family: "Georgia","Times New Roman",serif;
-	font-style:italic;
-	font-size:12px;
-	text-align:left;
-	line-height:24px;
-	margin:10px;
+	font-size:1.5vw;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:center;
 	position:relative;
-}
-.ca-item h4 span{
-	text-indent:40px;
-	display:block;
 }
 
 .ca-content-wrapper{
-	background:#b0ccc6;
+	background:black;
+	opacity: .8;
 	position:absolute;
 	width:0px; /* expands to width of the wrapper minus 1 element */
-	height:440px;
-	top:5px;
+	height:100%;
 	text-align:left;
 	z-index:10000;
 	overflow:hidden;
 }
 .ca-content{
 	width: 100%;
+	height: 100%;
 	overflow:hidden;
 }
-.ca-content-text{
-	font-size: 14px;
-	font-style: italic;
-	font-family: "Georgia","Times New Roman",serif;
-	margin:10px 20px;
-	padding:10px 20px;
-	line-height:24px;
+
+.ca-content .texts{
+	padding: 10px;
 }
-.ca-content-text p{
-	padding-bottom:5px;
-}
+
 .ca-content h6{
-	margin:25px 20px 0px 35px;
-	font-size:32px;
-	padding-bottom:5px;
-	color:#000;
-	font-family: 'Coustard', sans-serif;
-	color:#60817a;
-	border-bottom:2px solid #99bcb4;
-	text-shadow: 1px 1px 1px #99BCB4;
+	padding: 10px;
+	color: blue;
+	font-size: 2vw;
+	/*text-shadow: 1px 1px 1px #99BCB4;*/
+}
+
+.ca-content-text{
+	padding: 10px;
+	color: blue;
+	font-size: 1vw;
+	font-family: "Georgia","Times New Roman",serif;
 }
 
 .ca-content a{
 	color:#fff;
-	padding:3px 6px;
-	font-size:14px;
 	font-family: "Georgia","Times New Roman",serif;
 	font-style:italic;
 }
