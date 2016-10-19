@@ -3,7 +3,7 @@
 	position:relative;
 	margin:25px auto 20px auto;
 	width:990px;
-	height:450px;
+	height:80vh;
 }
 .ca-wrapper{
 	width:100%;
@@ -57,11 +57,12 @@
 }
 
 .ca-icon{
-	width:233px;
-	height:189px;
 	position:relative;
 	margin:0 auto;
-	background:transparent url(../images/animal1.png) no-repeat center center;
+}
+
+.ca-icon img{
+	width: 100%;
 }
 
 .ca-item h3{
