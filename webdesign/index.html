@@ -1,13 +1,26 @@
 <html>
 	<head>
 		<title>Robert Ang's Online Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="../assets/style.css">
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="../assets/home.js"> </script>
+
+		<link rel="stylesheet" type="text/css" href="./CircularContentCarousel/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="./CircularContentCarousel/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="./CircularContentCarousel/css/jquery.jscrollpane.css" media="all" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Coustard:900' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Rochester' rel='stylesheet' type='text/css' />
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript" src="./CircularContentCarousel/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="./CircularContentCarousel/js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="./CircularContentCarousel/js/jquery.contentcarousel.js"></script>	
+
+		<link rel="stylesheet" type="text/css" href="../assets/style.css">
 	</head>
 	<body>
-		<div id="mainpagescontainer">
-			<div id="topbuttonbar">
+<!-- 		<div id="mainpagescontainer">
+		<div id="topbuttonbar">
 				<a href="../storytelling/index.html">
 					<div class="mainbutton" id="storybutton2">Storytelling</div>
 				</a>
@@ -17,12 +30,93 @@
 			</div>
 
 			<div id="contentarea">
-				<div class="categorytitle">Web Design</div>
-				
-				<div class="contentbox" id="9brag">
+
+ -->
+		<div class="wdtitle">Web Design</div>
+			
+		<div class="wd carouselwrap">
+			<div id="ca-container" class="ca-container">
+				<div class="ca-wrapper">
+					<div class="ca-item ca-item-1">
+						<div class="ca-item-main">
+							<a href="http://www.9brag.com"><div id="ninegagpicca" class="ca-icon"></div></a>
+							<a href="http://www.9brag.com"><h3>9brag.com</h3></a>
+							<h4>My lovely homage to the stable feet of the internet: memes.</h4>
+							<a href="#" class="ca-more">More info</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>React, Redux, Rails</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									9brag.com is a full stack web application that has a Ruby on Rails backend, and a React.js with Redux frontend. Modeled after our dear 9gag.com, 9brag purports to be The Feet of the Internet, the strong, large, broad memeful basis of everything good and internetty. Users collect karma by posting memes, commenting, and getting their memes upvoted in the context of a "karma is everything" environment. Read more about the technology aspects <a href="https://github.com/angrobertsh/9brag">here!</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-2">
+						<div class="ca-item-main">
+							<a href="https://angrobertsh.github.io/chordear"><div id="chordearpicca" class="ca-icon"></div></a>
+							<a href="https://angrobertsh.github.io/chordear"><h3>CHORDEAR</h3></a>
+							<h4>A chord learning tool that lets you play the pretend piano.</h4>
+							<a href="#" class="ca-more">More info</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>React, Redux</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									CHORDEAR is a web application made with a React.js and Redux frontend. Designed for aspiring musicians who'd like to improve their musical ear, CHORDEAR plays chords and expects you to play them back using your own computer keyboard! The easy and hard modes give varying levels of difficulty, from telling you what notes to play, to just playing a sound and expecting you to replicate it! Read more about the technology aspects <a href="https://github.com/angrobertsh/chordear">here!</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-3">
+						<div class="ca-item-main">
+							<a href="https://angrobertsh.github.io/a-writer-s-toolkit"><div id="toolkitpicca" class="ca-icon"></div></a>
+							<a href="https://angrobertsh.github.io/a-writer-s-toolkit"><h3>A Writer's Toolkit</h3></a>
+							<h4>A text analyzer that lets you see what sorts of emotions your longer texts evoke.</h4>
+							<a href="#" class="ca-more">More info</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Plain old JavaScript</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									Instructions <a href="https://www.github.com/angrobertsh/a-writer-s-toolkit">here.</a> Tutorial video <a href="http://youtu.be/u-LbqwvFMlA">here.</a><br>
+									The Writer's Toolkit is a web application made with jQuery, d3.js, and JavaScript. It visualizes the emotional word content in a piece of text, and it runs right in your browser (but not Internet Explorer [sorry]). Users input larger amounts of plain text into a text box, pick whatever emotions they'd like to see, and watch how the emotional flow of a text occurs. This project was made in 2012 under the supervision of Jon Oberlander, Micha Elsner, and Victoria Adams at the University of Edinburgh.
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ca-item ca-item-4">
+						<div class="ca-item-main">
+							<a href="https://angrobertsh.github.io/colortale"><div id="colortalepicca" class="ca-icon"></div></a>
+							<a href="https://angrobertsh.github.io/colortale"><h3>Colortale</h3></a>
+							<h4>The companion app to A Writer's Toolkit that lets you draw a pretty picture when you tell it a story.</h4>
+							<a href="#" class="ca-more">More info</a>
+						</div>
+						<div class="ca-content-wrapper">
+							<div class="ca-content">
+								<h6>Plain old JavaScript</h6>
+								<a href="#" class="ca-close">close</a>
+								<div class="ca-content-text">
+									Colortale is the companion app to The Writer's Toolkit. Built with an elementary JavaScript coupled with the Water Colors API, this app creates artistic visualizations of sentence-by-sentence stories. The intent of making this app is to extend the usability of the tools presented by The Writer's Toolkit. Read more about the technology aspects <a href="https://github.com/angrobertsh/colortale">here!</a> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	
+
+<!-- 				<div class="contentbox" id="9brag">
 					<div class="projimage" id="9bragimage">
 						<a href="https://www.9brag.com">
-							<img src="../assets/images/9brag.png">
+							<img src="http://res.cloudinary.com/dujcpxlhk/image/upload/v1476831573/epb9do93g6mvbtl1khrb.png">
 						</a>
 					</div>
 					<div class="projdesc" id="9bragtext">
@@ -37,7 +131,7 @@
 				<div class="contentbox" id="chordear">
 					<div class="projimage" id="chordearimage">
 						<a href="https://angrobertsh.github.io/chordear">
-							<img src="../assets/images/chordear.png">
+							<img src="http://res.cloudinary.com/dujcpxlhk/image/upload/v1476831612/rmm6lbdhmggumkfjpb4f.png">
 						</a>
 					</div>
 					<div class="projdesc" id="chordeartext">
@@ -52,13 +146,13 @@
 				
 				<div class="contentbox" id="toolkit">
 					<div class="projimage" id="toolkitimage">
-						<a href="https://googledrive.com/host/0B4wcXGjHG_YNMnQ0OEVrNWVJUGs/The%20Writer%27s%20Toolkit.html">
-							<img src="../assets/images/toolkit.jpg">
+						<a href="https://angrobertsh.github.io/a-writer-s-toolkit">
+							<img src="http://res.cloudinary.com/dujcpxlhk/image/upload/v1476832502/o9iohzbru0mhamxkftfi.png">
 						</a>
 					</div>
 					<div class="projdesc" id="toolkittext">
 						<div class="linktitle">
-							<a href="https://googledrive.com/host/0B4wcXGjHG_YNMnQ0OEVrNWVJUGs/The%20Writer%27s%20Toolkit.html">The Writer's Toolkit</a>
+							<a href="https://angrobertsh.github.io/a-writer-s-toolkit">The Writer's Toolkit</a>
 						</div>
 						<div class="textstyle">
 							Instructions <a href="toolkitinstructions/index.html">here.</a> Tutorial video <a href="http://youtu.be/u-LbqwvFMlA">here.</a><br>
@@ -70,7 +164,7 @@
 				<div class="contentbox" id="colortale">
 					<div class="projimage" id="colortaleimage">
 						<a href="https://angrobertsh.github.io/colortale">
-							<img src="../assets/images/colortale.png">
+							<img src="http://res.cloudinary.com/dujcpxlhk/image/upload/v1476831634/lxdogdfx8wj4bbnzrgmv.png">
 						</a>
 					</div>
 					<div class="projdesc" id="colortaletext">
@@ -82,11 +176,21 @@
 						</div>
 					</div>
 				</div>
+
+
+
 			</div>
+
+
 			<div id="footer">
 				<div class="footnote">Website created and maintained by Robert Ang</div>
 			</div>
+	
 		</div>
+ -->
+		<script type="text/javascript">
+			$('#ca-container').contentcarousel();
+		</script>		
 	</body>
 </html>
 	
