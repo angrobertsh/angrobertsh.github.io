@@ -6,7 +6,7 @@ body{
     padding: 0;
     height:100%;
 	width:100%;
-	background-color: #fff4a3;
+	background-color: rgba(55, 25, 255, .4);
 }
 
 a{
@@ -462,6 +462,8 @@ iframe.centered{
 	background-image: url("http://res.cloudinary.com/dujcpxlhk/image/upload/v1476831634/lxdogdfx8wj4bbnzrgmv.png");
 }
 
+/*SMALLER CAROUSELS*/
+
 #authentication{
 	background-image: url("images/carousel2/authentication.png");
 }
@@ -480,4 +482,130 @@ iframe.centered{
 
 #commenting{
 	background-image: url("images/carousel2/commenting.png");
+}
+
+#tutorial{
+	background-image: url("images/carousel2/tutorial.png");
+}
+
+#difficulty{
+	background-image: url("images/carousel2/difficulty.png");
+}
+
+#music{
+	background-image: url("images/carousel2/music.png");
+}
+
+#graph{
+	background-image: url("images/carousel2/graphs.png");
+}
+
+#highlight{
+	background-image: url("images/carousel2/highlighting.png");
+}
+
+#analysis{
+	background-image: url("images/carousel2/emotions.png");
+}	
+
+#random{
+	background-image: url("images/carousel2/meaningful.png");
+}
+
+#modes{
+	background-image: url("images/carousel2/modes.png");
+}
+
+#analysis2{
+	background-image: url("images/carousel2/colors.png");
+}	
+
+.carousel2{
+	height: 66%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	padding:10px;
+}
+
+.carousel2 h2{
+	font-size: 22px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.carousel2 h4{
+	font-size: 16px;
+	padding: 5px;
+}
+
+.mini-ca-container{
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 90%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.carousel2 ul{
+	height: 90%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.carousel2-li{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	height: 90%;
+	width: 30%;
+	padding: 15px 0 15px 0;
+}
+
+.mini-car-1{
+	height: 100%;
+	width: 90%;
+}
+
+.carousel2 button{
+	width: 20px;
+	height: 20px;
+}
+
+.carousel2-icon{
+	display: block;
+	height: 80%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/*WEB DESIGN PAGE LAYOUT*/
+
+#wd-wrap{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.wd-titlearea{
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#myname{
+
+}
+
+#mylinks{
+
 }

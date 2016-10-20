@@ -51,7 +51,7 @@
 				cache.winpos		= aux.getWinPos( $item.position().left, cache );
 				$wrapper.find('div.ca-item').not( $item ).hide();
 				$item.find('div.ca-content-wrapper').css( 'left', cache.itemW + 'px' ).stop().animate({
-					width	: cache.itemW * 2 + 'px',
+					width	: (cache.itemW * 2 - 7) + 'px',
 					left	: cache.itemW + 'px'
 				}, opts.itemSpeed, opts.itemEasing)
 				.end()
@@ -77,7 +77,7 @@
 					if( idx !== openedIdx ) {
 						$item.css( 'left', - ( openedIdx - idx ) * ( cache.itemW * 3 ) + 'px' ).show().find('div.ca-content-wrapper').css({
 							left	: cache.itemW + 'px',
-							width	: cache.itemW * 2 + 'px'
+							width	: (cache.itemW * 2 - 7) + 'px'
 						});
 						
 						// hide more link
