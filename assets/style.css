@@ -462,3 +462,22 @@ iframe.centered{
 	background-image: url("http://res.cloudinary.com/dujcpxlhk/image/upload/v1476831634/lxdogdfx8wj4bbnzrgmv.png");
 }
 
+#authentication{
+	background-image: url("images/carousel2/authentication.png");
+}
+
+#tags{
+	background-image: url("images/carousel2/tags.png");
+}
+
+#uploading{
+	background-image: url("images/carousel2/uploading.png");
+}
+
+#upvoting{
+	background-image: url("images/carousel2/upvoting.png");
+}
+
+#commenting{
+	background-image: url("images/carousel2/commenting.png");
+}
