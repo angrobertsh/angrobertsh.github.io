@@ -215,7 +215,7 @@ iframe.centered{
 }
 .carouselwrap{
 	position: relative;
-	margin-left: auto;
+	margin: 0 auto;
 	margin-right: auto;
 }
 
@@ -521,7 +521,6 @@ iframe.centered{
 }	
 
 .carousel2{
-	height: 66%;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
@@ -550,7 +549,7 @@ iframe.centered{
 }
 
 .carousel2 ul{
-	height: 90%;
+	height: 100%;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -560,10 +559,8 @@ iframe.centered{
 .carousel2-li{
 	display: flex;
 	flex-direction: column;
-	justify-content:center;
 	height: 90%;
 	width: 30%;
-	padding: 15px 0 15px 0;
 }
 
 .mini-car-1{
@@ -576,9 +573,13 @@ iframe.centered{
 	height: 20px;
 }
 
+.carousel2-image-wrapper{
+	height: 90%;
+}
+
 .carousel2-icon{
 	display: block;
-	height: 80%;
+	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -600,12 +601,26 @@ iframe.centered{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 #myname{
-
+	font-size: 24pt;
+	font-weight: bolder;
 }
 
 #mylinks{
+	width: 70px;
+	display: flex;
+	justify-content: space-between;
+}
 
+#mylinks img{
+	height: 20px;
+	width: 20px;
+}
+
+#filmstrip{
+	background-color: black;
+	padding: 25px 0 25px 0;
 }
