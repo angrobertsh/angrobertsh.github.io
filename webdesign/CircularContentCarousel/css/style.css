@@ -18,7 +18,7 @@
 	text-align:center;
 	box-sizing: border-box;
 }
-.ca-more{
+/*.ca-more{
 	position: absolute;
 	bottom: 0px;
 	right:0px;
@@ -28,6 +28,24 @@
 	text-align:center;
 	color: white;
 	text-shadow:1px 1px 1px #897c63;
+}*/
+
+.extracontain{
+	width: 100%;
+	height: 100%;
+	padding: 0 20px 20px 20px;	
+	position: absolute;
+	background-color: transparent;
+	z-index: 2;
+	left: 0;
+	box-sizing: border-box;		
+}
+
+.ca-more{
+	display: block;
+	width: 100%;
+	height: 100%;
+
 }
 .ca-close{
 	position:absolute;
@@ -50,7 +68,7 @@
 	left: 0px;
 	bottom: 0px;
 	margin: 0 10px 0 10px;	
-	background:#fff;
+	background:rgba(240,240,240,1);
 	overflow:hidden;
 	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
 	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
@@ -58,11 +76,18 @@
 }
 
 .ca-image-wrapper{
+	position: relative;
 	width: 100%;
 	height: 80%;
+	padding: 0 20px 20px 20px;
+	box-sizing: border-box;
 }
 
 .ca-text-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	height: 20%;
 	width: 100%;
 }
@@ -76,6 +101,7 @@
 	position:relative;
 	height: 100%;
 	margin:0 auto;
+	background-size: cover;
 	background-position: center;
 }
 
@@ -87,6 +113,11 @@
 	text-align:center;
 	padding-top: 8px;
 }
+
+.ca-item h3:hover{
+	color: blue;
+}
+
 .ca-item h4{
 	font-size: 12pt;
 	padding-left: 10px;
@@ -133,10 +164,11 @@
 	color:blue;
 	font-style:italic;
 }
-.ca-content a:hover{
+a:hover{
 	color: white;
 	text-shadow:none;
 }
+
 .ca-nav span{
 	width:25px;
 	height:38px;
