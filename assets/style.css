@@ -607,6 +607,7 @@ iframe.centered{
 #myname{
 	font-size: 24pt;
 	font-weight: bolder;
+	line-height: 1.5;
 }
 
 #mylinks{
@@ -623,4 +624,9 @@ iframe.centered{
 #filmstrip{
 	background-color: black;
 	padding: 25px 0 25px 0;
+	margin-bottom: 25px;
+}
+
+.wd-titlearea{
+	padding: 5px;
 }
