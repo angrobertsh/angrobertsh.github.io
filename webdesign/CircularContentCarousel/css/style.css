@@ -143,22 +143,22 @@
 	font-family: 'Proza Libre', sans-serif;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 }
 
 .ca-content .texts{
 	padding: 20px 20px 0 20px;
 	box-sizing: border-box;
+	max-height: 30vh;
 }
 
 .ca-content h6{
 	padding-bottom: 10px;
-	font-size: 28pt;
+	font-size: 3.2vw;
 	/*text-shadow: 1px 1px 1px #99BCB4;*/
 }
 
 .ca-content-text{
-	font-size: 12pt;
+	font-size: 1.25vw;
 }
 
 .ca-content a{

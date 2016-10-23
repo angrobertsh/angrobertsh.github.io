@@ -525,6 +525,7 @@ iframe.centered{
 	display: flex;
 	flex-direction: column;
 	padding:10px;
+	height: 40vh;
 }
 
 .carousel2 h2{
@@ -559,7 +560,7 @@ iframe.centered{
 .carousel2-li{
 	display: flex;
 	flex-direction: column;
-	height: 90%;
+	height: 100%;
 	width: 30%;
 }
 
