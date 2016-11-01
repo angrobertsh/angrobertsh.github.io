@@ -524,6 +524,7 @@ iframe.centered{
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	padding:10px;
 	height: 40vh;
 }
@@ -549,7 +550,7 @@ iframe.centered{
 	justify-content: space-around;
 	align-items: center;
 	width: 90%;
-	height: 35vh;
+	height: 30vh;
 	box-sizing: border-box;
 }
 
