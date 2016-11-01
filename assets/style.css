@@ -539,12 +539,17 @@ iframe.centered{
 	padding: 5px;
 }
 
+.featuresdiv{
+	height: 5vh;
+}
+
 .mini-ca-container{
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	width: 90%;
+	height: 35vh;
 	box-sizing: border-box;
 }
 
@@ -605,7 +610,7 @@ iframe.centered{
 }
 
 #myname{
-	font-size: 24pt;
+	font-size: 3vw;
 	font-weight: bolder;
 	line-height: 1.5;
 }
