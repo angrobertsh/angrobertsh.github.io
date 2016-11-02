@@ -45,7 +45,8 @@
 	display: block;
 	width: 100%;
 	height: 100%;
-
+	border: 1px solid rgba(160, 160, 160, .8);
+	box-sizing: border-box;
 }
 .ca-close{
 	position:absolute;
@@ -69,6 +70,7 @@
 	bottom: 0px;
 	margin: 0 10px 0 10px;	
 	background:rgba(240,240,240,1);
+	border: 1px solid rgba(55, 55, 55, .7);
 	overflow:hidden;
 	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
 	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
@@ -112,6 +114,7 @@
 	color:#000;
 	text-align:center;
 	padding-top: 8px;
+	text-decoration: underline;
 }
 
 .ca-item h3:hover{
