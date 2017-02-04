@@ -2793,7 +2793,7 @@
 			.tiles article header {
 				position: relative;
 				z-index: 3;
-				text-shadow: -1px 1px black;
+				text-shadow: 1px 1px black;
 			}
 
 			.tiles article h3 {
