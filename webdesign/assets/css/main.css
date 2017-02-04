@@ -2290,6 +2290,10 @@
 				}
 
 		ul.icons {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
@@ -2789,6 +2793,7 @@
 			.tiles article header {
 				position: relative;
 				z-index: 3;
+				text-shadow: -1px 1px black;
 			}
 
 			.tiles article h3 {
@@ -3490,11 +3495,7 @@
 				-moz-align-items: center;
 				-webkit-align-items: center;
 				-ms-align-items: center;
-				align-items: center;
-				-moz-justify-content: center;
-				-webkit-justify-content: center;
-				-ms-justify-content: center;
-				justify-content: center;				
+				align-items: center;			
 				margin: 0 0 2em 0;
 			}
 
