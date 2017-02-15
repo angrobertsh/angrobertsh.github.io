@@ -50,7 +50,17 @@ function removeitem()
 //	var removeitemname = document.removeitem.removeitemname.value;
 }
 
+function populateString(string)
+{
+	// get thing
+	// JSON.stringify(bakeryitems)
+}
 
+function populateListFromString()
+{
+	// JSON.parse(whatever)
+	// append to thing
+}
 
 $(document).ready(function(){
 
