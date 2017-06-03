@@ -12,7 +12,7 @@ body{
 a{
 	font-weight: bold;
 	color: #000000;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 h1{
@@ -72,7 +72,7 @@ iframe{
 #frontpicture2{
 	position: absolute;
     left: 50%;
-    margin-left: -100px;    
+    margin-left: -100px;
 	background-image: url("images/web.png");
 	width: 200;
 	height: 200;
@@ -82,7 +82,7 @@ iframe{
 #frontpicture3{
 	position: absolute;
     left: 50%;
-    margin-left: -100px;    
+    margin-left: -100px;
 	background-image: url("images/story.png");
 	width: 200;
 	height: 200;
@@ -101,11 +101,11 @@ iframe{
     transition: 0.1s;
     -moz-transition: 0.1s;
     -webkit-transition: 0.1s;
-    background-color: #8C40FF;	
+    background-color: #8C40FF;
 }
 
 .frontbutton:hover, .frontbutton.active {
-    background-color: #333333;    
+    background-color: #333333;
     color: white;
 }
 
@@ -177,7 +177,7 @@ iframe{
 
 .categorytitle{
 	text-align: center;
-	font-size: 35px;	
+	font-size: 35px;
 	padding: 45px;
 	margin: 40px 5px;
 	font-weight: 900;
@@ -255,7 +255,7 @@ iframe.centered{
 	margin-right: auto;
 	border: 1px solid black;
 	font-size: 12px;
-	line-height: 110%;	
+	line-height: 110%;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -271,10 +271,10 @@ iframe.centered{
     -moz-transition: 0.2s;
     -webkit-transition: 0.2s;
     border: 1px solid black;
-    background-color: #DDDAD9;	
+    background-color: #DDDAD9;
 }
 .nanobutton:hover, .nanobutton.active {
-    background-color: #333333;    
+    background-color: #333333;
     border: 1px solid #555555;
     color: white;
 }
@@ -379,7 +379,7 @@ iframe.centered{
 	right: 24%;
 	height: 40px;
 	z-index:2;
-	border: 1px solid black;	
+	border: 1px solid black;
 }
 
 .longnavbar2.scrollpoint2{
@@ -407,7 +407,7 @@ iframe.centered{
 	right: 30%;
 	height: 75px;
 	z-index:2;
-	border: 1px solid black;	
+	border: 1px solid black;
 }
 
 .longnavbar3.scrollpoint3{
@@ -506,7 +506,7 @@ iframe.centered{
 
 #analysis{
 	background-image: url("images/carousel2/emotions.png");
-}	
+}
 
 #random{
 	background-image: url("images/carousel2/meaningful.png");
@@ -518,7 +518,7 @@ iframe.centered{
 
 #analysis2{
 	background-image: url("images/carousel2/colors.png");
-}	
+}
 
 .carousel2{
 	box-sizing: border-box;
@@ -647,7 +647,7 @@ iframe.centered{
 }
 
 #chordear {
-	background-image: url("images/wdimages/chordear.png");"	
+	background-image: url("images/wdimages/chordear.png");"
 }
 
 #colortale{
@@ -656,4 +656,12 @@ iframe.centered{
 
 #toolkit {
 	background-image: url("images/wdimages/toolkit.png");"
+}
+
+#elections {
+	background-image: url("images/wdimages/elections.png");"
+}
+
+#truckplease {
+	background-image: url("images/wdimages/truckplease.png");"
 }
